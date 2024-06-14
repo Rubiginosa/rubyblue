@@ -32,6 +32,7 @@ modules:
       - hyfetch
       - tldr
       - vim-default-editor
+      - btop
       # - micro
       # - starship
     remove:
