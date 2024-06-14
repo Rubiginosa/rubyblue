@@ -1,5 +1,9 @@
 A custom fedora atomic image using BlueBuild. Based on secureblue and ublue-aurora-dx
 
+## Details
+Includes asus-linux packages for gpu and power profile management
+Includes fcitx, which works better than ibus in some situations
+Adds stow, hyfetch, and tldr. Removes nano!
 ## Installation
 
 > **Warning**  
@@ -23,6 +27,8 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
+
+Note: You cannot rebase directly from secureblue without editing the policies. First, rebase to a non-secureblue image, then rebase to this one.
 
 ## ISO
 
