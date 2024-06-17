@@ -31,13 +31,13 @@ modules:
       - stow
       - hyfetch
       - tldr
-      - vim-default-editor
+      # - vim-default-editor
       - btop
       # - micro
       # - starship
     remove:
       # - nano
-      - nano-default-editor
+      # - nano-default-editor
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
