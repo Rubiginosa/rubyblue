@@ -28,9 +28,6 @@ modules:
       - syncthing
       - asusctl
       - asusctl-rog-gui
-      - fcitx5
-      - fcitx5-chinese-addons
-      - fcitx5-mozc
       - stow
       - hyfetch
       - tldr
