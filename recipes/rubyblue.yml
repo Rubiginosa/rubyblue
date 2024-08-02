@@ -10,6 +10,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - from-file: common.yml
   - type: files
     files:
       - usr: /usr # copies config/files/usr into your image's /usr.
@@ -20,19 +21,9 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-%OS_VERSION%/lukenukem-asus-linux-fedora-%OS_VERSION%.repo
-    remove:
-      - nano
-      - nano-default-editor
     install:
-      - autorestic
-      - syncthing
       - asusctl
       - asusctl-rog-gui
-      - stow
-      - hyfetch
-      - tldr
-      - vim-default-editor
-      - btop
       # - micro
       # - starship
 

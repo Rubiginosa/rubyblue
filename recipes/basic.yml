@@ -1,0 +1,12 @@
+# required if not using bluefin
+
+
+modules:
+  - type: rpm-ostree
+    remove:
+    install:
+      - ptyxis
+      - restic
+      - distrobox
+      - rclone
+      - tailscale
