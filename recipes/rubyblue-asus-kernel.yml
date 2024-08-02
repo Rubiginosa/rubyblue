@@ -2,11 +2,12 @@ name: rubyblue-asus-kernel
 
 description: bluefin asus image with hardening and customizations
 
-base-image: ghcr.io/secureblue/bluefin-dx-asus-nvidia-userns-hardened
+base-image: ghcr.io/secureblue/silverblue-asus-nvidia-userns-hardened
 image-version: latest # latest is also supported if you want new updates ASAP
 
 
 modules:
   - from-file: common.yml
+  - from-file: basic.yml
 
   - type: signing
