@@ -11,3 +11,4 @@ install:
   - vim-default-editor
   - btop
   - gh
+  - kitty
