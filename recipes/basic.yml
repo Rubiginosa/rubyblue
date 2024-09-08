@@ -1,0 +1,10 @@
+# required if not using bluefin
+type: rpm-ostree
+remove:
+install:
+  - ptyxis
+  - restic
+  - distrobox
+  - rclone
+  - zfs-fuse
+  - tailscale

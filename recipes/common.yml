@@ -1,0 +1,15 @@
+type: rpm-ostree
+remove:
+  - nano
+  - nano-default-editor
+install:
+  - autorestic
+  - syncthing
+  - stow
+  - hyfetch
+  - tldr
+  - vim-default-editor
+  - btop
+  - powertop
+  - gh
+  - kitty
