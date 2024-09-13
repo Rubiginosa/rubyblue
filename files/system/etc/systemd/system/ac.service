@@ -1,0 +1,9 @@
+[Unit]
+Description=switch power profiles for performance
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/tuned-adm profile balanced
+
+[Install]
+WantedBy=ac.target

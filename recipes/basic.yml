@@ -8,3 +8,5 @@ install:
   - rclone
   - zfs-fuse
   - tailscale
+  - tuned
+  - tuned-adm
