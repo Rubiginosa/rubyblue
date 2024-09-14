@@ -13,3 +13,7 @@ install:
   - powertop
   - gh
   - kitty
+  - sshfs
+  - calcurse
+  - ripgrep
+  - pandoc
