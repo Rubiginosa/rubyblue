@@ -1,4 +1,8 @@
 type: rpm-ostree
+repos: 
+  - charm.repo
+keys:
+  - https://repo.charm.sh/yum/gpg.key
 remove:
   - nano
   - nano-default-editor
@@ -17,3 +21,5 @@ install:
   - calcurse
   - ripgrep
   - pandoc
+  - glow
+  - gum
