@@ -20,6 +20,7 @@ install:
   - sshfs
   - calcurse
   - ripgrep
+  - fzf
   - pandoc
   - glow
   - gum
