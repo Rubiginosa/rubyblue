@@ -9,3 +9,4 @@ install:
   - zfs-fuse
   - tailscale
   - tuned
+  - tuned-gtk
