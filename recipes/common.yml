@@ -10,6 +10,7 @@ install:
   - autorestic
   - syncthing
   - stow
+  - fastfetch
   - hyfetch
   - tldr
   - vim-default-editor
