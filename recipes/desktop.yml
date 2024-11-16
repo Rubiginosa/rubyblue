@@ -1,0 +1,8 @@
+type: rpm-ostree
+repos: 
+  - charm.repo
+keys:
+  - https://repo.charm.sh/yum/gpg.key
+install:
+  - calcurse
+  - pandoc

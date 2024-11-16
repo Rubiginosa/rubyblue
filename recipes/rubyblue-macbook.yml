@@ -12,6 +12,8 @@ image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - from-file: common.yml
   - from-file: basic.yml
+  - from-file: desktop.yml
+  - from-file: flatpak.yml
   - type: files
     files:
       - source: system

@@ -10,18 +10,14 @@ install:
   - autorestic
   - syncthing
   - stow
-  - fastfetch
   - hyfetch
-  - tldr
+  - fastfetch
   - vim-default-editor
   - btop
-  - powertop
   - gh
   - kitty
   - sshfs
-  - calcurse
   - ripgrep
   - fzf
-  - pandoc
   - glow
   - gum

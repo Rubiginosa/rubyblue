@@ -2,7 +2,6 @@
 type: rpm-ostree
 remove:
 install:
-  - ptyxis
   - restic
   - distrobox
   - rclone
@@ -10,3 +9,4 @@ install:
   - tailscale
   - tuned
   - tuned-gtk
+  - tuned-utils
