@@ -21,3 +21,5 @@ install:
   - fzf
   - glow
   - gum
+  - rust
+  - cargo
