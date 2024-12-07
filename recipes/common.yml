@@ -15,7 +15,6 @@ install:
   - vim-default-editor
   - btop
   - gh
-  - kitty
   - sshfs
   - ripgrep
   - fzf

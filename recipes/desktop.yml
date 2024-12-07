@@ -5,5 +5,5 @@ keys:
   - https://repo.charm.sh/yum/gpg.key
 install:
   - calcurse
-  - neovim
+  - kitty
   - pandoc

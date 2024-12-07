@@ -1,7 +1,8 @@
 type: default-flatpaks
 notify: true
 user:
-  repo-name: flathub-verified
+  repo-name: flathub
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   install:
     - rocks.koreader.KOReader
     - org.keepassxc.KeePassXC
@@ -11,3 +12,5 @@ user:
     - com.github.flxzt.rnote
     - org.gnome.Evolution
     - org.gnome.Firmware
+    - org.gnome.Extensions
+    - org.libreoffice.LibreOffice

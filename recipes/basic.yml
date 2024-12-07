@@ -1,4 +1,3 @@
-# required if not using bluefin
 type: rpm-ostree
 remove:
 install:
