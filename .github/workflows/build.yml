@@ -22,8 +22,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          #- rubyblue.yml
-          - rubyblue-av.yml
+          - rubyblue.yml
+          #- rubyblue-av.yml
           #- rubyblue-asus.yml
           #- rubyblue-macbook.yml
     steps:
