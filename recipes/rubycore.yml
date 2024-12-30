@@ -1,0 +1,11 @@
+name: rubycore
+
+description: "Distribution for personal servers"
+
+base-image: ghcr.io/secureblue/securecore-main-hardened
+image-version: 41
+
+modules:
+  - from-file: basic.yml
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+

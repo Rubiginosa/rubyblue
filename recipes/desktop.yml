@@ -6,5 +6,7 @@ keys:
 install:
   - calcurse
   - kitty
-  - pandoc
   - neovim
+  - ripgrep
+  - syncthing
+  - sshfs

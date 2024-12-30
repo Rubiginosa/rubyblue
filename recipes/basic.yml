@@ -1,12 +1,27 @@
 type: rpm-ostree
+repos: 
+  - charm.repo
+keys:
+  - https://repo.charm.sh/yum/gpg.key
 remove:
+  - nano
+  - nano-default-editor
 install:
+  - autorestic
   - restic
   - distrobox
   - rclone
   - zfs-fuse
   - tailscale
-  - tuned
   - tuned-gtk
   - tuned-utils
   - info
+  - stow
+  - hyfetch
+  - fastfetch
+  - vim-default-editor
+  - gh
+  - btop
+  - fzf
+  - glow
+  - gum

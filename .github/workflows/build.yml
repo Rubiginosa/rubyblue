@@ -23,9 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - rubyblue.yml
-          #- rubyblue-av.yml
-          #- rubyblue-asus.yml
-          #- rubyblue-macbook.yml
+          - rubycore.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
