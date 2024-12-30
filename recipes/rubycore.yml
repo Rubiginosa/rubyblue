@@ -10,6 +10,10 @@ modules:
   - type: rpm-ostree
     install:
       - docker
+      - docker-compose
+      - iwlwifi-dvm-firmware
+      - iwlwifi-mvm-firmware
+      - NetworkManager-wifi
       - certbot
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
