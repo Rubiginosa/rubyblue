@@ -10,3 +10,4 @@ install:
   - ripgrep
   - syncthing
   - sshfs
+  - podman-compose
