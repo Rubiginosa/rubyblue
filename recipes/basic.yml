@@ -21,6 +21,7 @@ install:
   - fastfetch
   - vim-default-editor
   - gh
+  - tig
   - btop
   - fzf
   - glow
