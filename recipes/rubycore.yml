@@ -1,5 +1,4 @@
 name: rubycore
-
 description: "Distribution for personal servers"
 
 base-image: ghcr.io/secureblue/securecore-main-hardened
@@ -7,6 +6,11 @@ image-version: 41
 
 modules:
   - from-file: basic.yml
+  - from-file: systemd.yml
+  - type: systemd
+    system:
+      enabled:
+        - sshd.service
   - type: rpm-ostree
     install:
       - docker
