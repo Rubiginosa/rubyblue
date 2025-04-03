@@ -23,6 +23,8 @@ install:
   - gh
   - tig
   - btop
+  - ripgrep
   - fzf
   - glow
   - gum
+  - neovim

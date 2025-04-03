@@ -6,8 +6,6 @@ keys:
 install:
   - calcurse
   - kitty
-  - neovim
-  - ripgrep
   - syncthing
   - sshfs
   - podman-compose

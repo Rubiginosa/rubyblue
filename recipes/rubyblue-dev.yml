@@ -1,0 +1,23 @@
+name: rubyblue-devbox
+description: Image for remote dev host
+
+base-image: ghcr.io/ublue-os/bluefin-dx-nvidia
+image-version: 41 # latest is also supported if you want new updates ASAP
+
+modules:
+  - from-file: basic.yml
+  - from-file: desktop.yml
+  - from-file: extensions.yml
+  - from-file: systemd.yml
+  - type: systemd
+    system:
+      enabled:
+        - sshd.service
+      masked:
+        - sleep.target
+        - suspend.target
+        - hibernate.target
+        - hybrid-sleep.target
+
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+

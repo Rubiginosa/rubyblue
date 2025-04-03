@@ -23,6 +23,8 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - rubyblue.yml
+          - rubyblue-dev.yml
+          - rubyblue-writer.yml
           - rubycore.yml
     steps:
        # the build is fully handled by the reusable github action
