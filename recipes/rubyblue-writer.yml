@@ -7,6 +7,9 @@ image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - from-file: basic.yml
   - from-file: desktop.yml
+  - type: bling
+    install:
+      - rpmfusion
   - type: rpm-ostree
     install:
       - broadcom-wl
