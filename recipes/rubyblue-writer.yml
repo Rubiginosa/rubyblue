@@ -7,15 +7,5 @@ image-version: 42 # latest is also supported if you want new updates ASAP
 modules:
   - from-file: basic.yml
   - from-file: desktop.yml
-  - type: bling
-    install:
-      - rpmfusion
-  - type: rpm-ostree
-    install:
-      - broadcom-wl
-#  - type: script
-#    snippets:
-#      - "sed -i -E '/^install hfs/d' /etc/modprobe.d/blacklist.conf"
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
