@@ -19,7 +19,6 @@ install:
   - hyfetch
   - fastfetch
   - vim-default-editor
-  - gh
   - tig
   - btop
   - ripgrep
