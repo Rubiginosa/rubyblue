@@ -2,7 +2,7 @@ name: rubyblue-writer
 description: Image for lightweight writing machine
 
 base-image: ghcr.io/ublue-os/vauxite-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: 42 # latest is also supported if you want new updates ASAP
 
 modules:
   - from-file: basic.yml

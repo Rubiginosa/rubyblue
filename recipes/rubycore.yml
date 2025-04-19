@@ -2,7 +2,7 @@ name: rubycore
 description: "Distribution for personal servers"
 
 base-image: ghcr.io/secureblue/securecore-main-hardened
-image-version: 41
+image-version: 42
 
 modules:
   - from-file: basic.yml

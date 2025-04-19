@@ -1,0 +1,3 @@
+type: script
+snippets:
+  - "ln -s /usr/bin/fusermount /usr/sbin/fusermount3"

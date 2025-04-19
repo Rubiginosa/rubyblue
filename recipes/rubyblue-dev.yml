@@ -1,8 +1,8 @@
-name: rubyblue-devbox
+name: rubyblue-dev
 description: Image for remote dev host
 
 base-image: ghcr.io/ublue-os/bluefin-dx-nvidia
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: 42 # latest is also supported if you want new updates ASAP
 
 modules:
   - from-file: basic.yml
