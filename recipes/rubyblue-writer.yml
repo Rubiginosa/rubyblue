@@ -7,7 +7,6 @@ image-version: 42 # latest is also supported if you want new updates ASAP
 modules:
   - from-file: basic.yml
   - from-file: desktop.yml
-  - from-file: fusermount.yml
   - type: bling
     install:
       - rpmfusion
