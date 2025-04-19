@@ -9,7 +9,6 @@ modules:
   - from-file: desktop.yml
   - from-file: extensions.yml
   - from-file: systemd.yml
-  - from-file: fusermount.yml
   - type: systemd
     system:
       enabled:
