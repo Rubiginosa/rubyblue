@@ -1,7 +1,7 @@
 name: rubyblue-writer
 description: Image for lightweight writing machine
 
-base-image: ghcr.io/ublue-os/vauxite-main
+base-image: ghcr.io/ublue-os/budgie-atomic-main
 image-version: 42 # latest is also supported if you want new updates ASAP
 
 modules:
