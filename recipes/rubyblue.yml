@@ -1,8 +1,8 @@
 name: rubyblue
-description: Daily-driver image based on secureblue
+description: Daily driver image based on secureblue
 
 base-image: ghcr.io/secureblue/silverblue-main-hardened
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: 42
 
 modules:
   - from-file: basic.yml
