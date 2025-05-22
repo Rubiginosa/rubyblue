@@ -7,4 +7,3 @@ install:
   - tailscale
   - tuned-gtk
   - tuned-utils
-  - stow

@@ -2,8 +2,6 @@ type: gnome-extensions
 install:
   - Blur my Shell
   - Caffeine
-  - Executor
   - Grayscale Windows
   - Night Theme Switcher
   - Run or raise
-  - Tiling Shell
