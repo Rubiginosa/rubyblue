@@ -7,3 +7,4 @@ install:
   - tailscale
   - tuned-gtk
   - tuned-utils
+  - rclone
