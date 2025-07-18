@@ -1,6 +1,5 @@
 type: rpm-ostree
 install:
-  - kitty
   - syncthing
   - sshfs
   - podman-compose
